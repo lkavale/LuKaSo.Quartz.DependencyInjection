@@ -11,7 +11,8 @@
     <Description>Quartz.Net integration for .NET Core IoC container</Description>
     <PackageTags>Quartz.Net, Dependency injection, .NET Core, ASP.NET Core</PackageTags>
     <Copyright>LuKaSo 2019</Copyright>
-    <PackageIconUrl>https://github.com/lkavale/LuKaSo.Quartz.DependencyInjection/blob/master/LICENSE</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/lkavale/LuKaSo.Quartz.DependencyInjection/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
