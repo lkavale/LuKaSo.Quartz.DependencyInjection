@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Lukáš Kavale</Authors>
+    <PackageProjectUrl>https://github.com/lkavale/LuKaSo.Quartz.DependencyInjection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lkavale/LuKaSo.Quartz.DependencyInjection.git</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <Description>Quartz.Net integration for .NET Core IoC container</Description>
+    <PackageTags>Quartz.Net, Dependency injection, .NET Core, ASP.NET Core</PackageTags>
+    <Copyright>LuKaSo 2019</Copyright>
+    <PackageIconUrl>https://github.com/lkavale/LuKaSo.Quartz.DependencyInjection/blob/master/LICENSE</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Quartz" Version="3.0.7" />
+  </ItemGroup>
+
+</Project>
